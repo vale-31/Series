@@ -1,0 +1,168 @@
+:root{
+    --rojo: #e50904;
+    --fondo: #c16ad6;
+   
+   }
+  
+   
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#141414;
+    font-family: 'Open Sans', sans-serif;;
+}
+ 
+ 
+ header{
+     padding:30px 0 ;
+ }
+ header.contenedor{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ header nav a{
+color:rgb(151, 42, 224);
+text-decoration: none;
+margin-right:  20px;
+ }
+
+ header nav a:hover, header nav a.activo{
+     color: azure;
+      
+ }
+
+ .logotipo{
+     padding: 10px 60px 0px 60px;
+    
+ }
+
+ .titulo a{
+     text-align: right;
+     
+    
+ }
+ h3{
+     font-family:'Permanent Marker', cursive;
+ }
+
+ /*SERIES*/
+.pelicula-principal{
+    font-size: 16px;
+    min-height: 650px;
+    color: beige;
+    background: linear-gradient(rgba(153, 50, 204, .50) 0%,    rgb(247, 72, 101) 100% ),url(./imagenes/serie\ fondo.jpg);
+    background-position:  center center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -ms-border-radius: 8px 8px 8px 8px;
+    -o-border-radius: 8px 8px 8px 8px;
+    background-attachment: fixed;
+
+}
+
+.pelicula-principal .titulo{
+    font-weight: 600;
+    font-size: 50px;
+    margin: 20px;
+    
+}
+ 
+div.container {
+    width: 100%;
+    height: 500px;
+  display: flex;
+  justify-content: center; /*Alinea los elementos horizontalmente*/
+  margin: auto;
+  }
+  
+  div.container div.card:hover{
+      width: 400px;
+      height: 500px;
+      text-align: center;
+      /*cuandosedesbordaelcontenidoeloverflow:hidden;
+      looculta*/
+      transform:translateY(-15px) ;
+      box-shadow: 0 12px 16px rgb(224, 10, 10);
+  }
+  
+  div.container div.card img{
+      width: 95%;
+      height: 350px;
+      border-radius: 8px 8px 8px 8px;
+      -webkit-border-radius: 8px 8px 8px 8px;
+      -moz-border-radius: 8px 8px 8px 8px;
+      -ms-border-radius: 8px 8px 8px 8px;
+      -o-border-radius: 8px 8px 8px 8px;
+}
+  div.container div.card h4{
+      font-weight: 600;
+      color: brown;
+  
+  }
+  div.container div.card p{
+      font-size: 16px;
+      font-weight: 300;
+      color: rgb(231, 44, 75);
+  }
+  div.container div.card a{
+      text-decoration: none;
+      color: rgb(209, 68, 16);
+      font-weight: 500;
+      }
+      
+      footer{
+        background-color:rgb(169,3,219,0.548);
+        align-self: flex-end;
+        
+        
+        }
+        .encabezado{
+            width: 80%;
+            height: 70px;
+            margin: auto;
+        }
+        
+        .logo{
+            width: 50%;
+            height: 60px;
+            float: left;
+            min-width: 50%;
+        }
+        
+        nav{
+            width: 60%;
+            height: 60px;
+            float:right;
+            max-width: 50%;
+            text-align: right;
+            padding-top: 15px;
+        }
+        
+        .navegacion{
+            display:inline;
+            padding: 30px 60px 60px 10px; 
+            font-weight: bold;
+        }
+        
+        .navegacion a{
+            text-decoration: none;
+            color: rgb(110, 10, 177)
+         
+        }
+        section.contentmusic h2{
+            color:aliceblue;
+            font-size: 40px;
+            text-align: center;
+        }
+          
+         
